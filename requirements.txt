@@ -3,3 +3,6 @@ numpy
 faker
 sqlalchemy
 psycopg2-binary
+pyspark
+pyarrow
+saspy
