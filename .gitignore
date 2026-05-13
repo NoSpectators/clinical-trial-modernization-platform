@@ -1,0 +1,84 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.dist-info/
+
+# Virtual environments
+venv/
+.env/
+.env.*
+.venv/
+
+# -----------------------------
+# Jupyter / Notebooks
+# -----------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# -----------------------------
+# Data (CRITICAL for this project)
+# -----------------------------
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+
+# Keep folder structure but not files
+!data/raw/.gitkeep
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+
+# -----------------------------
+# Database / Postgres
+# -----------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# -----------------------------
+# Docker
+# -----------------------------
+docker-compose.override.yml
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+logs/
+
+# -----------------------------
+# Airflow
+# -----------------------------
+airflow/logs/
+airflow/*.pid
+
+# -----------------------------
+# SAS / Clinical exports
+# -----------------------------
+*.xpt
+*.sas7bdat
+*.log
+*.lst
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# IDEs
+# -----------------------------
+.vscode/
+.idea/
+
+# -----------------------------
+# Streamlit
+# -----------------------------
+.streamlit/secrets.toml
